@@ -1,36 +1,48 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 💸 Duit Raya Calculator
+
+A fun, viral calculator to help Malaysians budget for Duit Raya during Hari Raya 2026!
+
+## Features
+
+- 💰 **Input:** Total Budget (RM)
+- 📋 **Categories with Sliders/Inputs:**
+  - 👨‍👩‍👧 Ibu Bapa (Priority 1)
+  - 👫 Adik Beradik
+  - ⭐ Anak Buah (Favorite)
+  - 👶 Anak Buah (Biasa)
+  - 🏘️ Jiran / Random Kids
+- 🧮 **Smart Distribution:** Distribute budget based on priority & quantity
+- 👑 **Verdict System:** Get rated as "Haji Bakhil" vs "Sultan Pemurah"!
+- 🎨 **UI:** Fun, colourful (Green/Yellow theme), festive vibes with Ketupat icons
+
+## Tech Stack
+
+- Next.js 14 (App Router)
+- Tailwind CSS
+- Framer Motion
 
 ## Getting Started
 
-First, run the development server:
-
 ```bash
+# Install dependencies
+npm install
+
+# Run development server
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open [http://localhost:3000](http://localhost:3000) to see the app.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Deploy
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+Deploy easily on Vercel:
 
-## Learn More
+```bash
+npx vercel
+```
 
-To learn more about Next.js, take a look at the following resources:
+Or connect your GitHub repo to Vercel for automatic deployments.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+---
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Made with ❤️ for Malaysians 🇲🇾 | © 2026
